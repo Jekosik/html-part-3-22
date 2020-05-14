@@ -1,0 +1,248 @@
+/* Основной цвет текста #212121 */
+
+/* Вторичный цвет текста #757575 */
+
+/* белый цвет #FFFFFF */
+
+/* вторичный цвет фона #F5F4FA */
+
+/* акцент  #2196F3 */
+
+/* Оформление слова Studio */
+.wite{
+    color: var(--wite-color);
+}
+.back{
+    color: var(--title-text-color);
+    font-family: Raleway
+}
+
+/* Button */
+
+.button{
+    color: var(--wite-color);
+    background: var(--accent-color);
+
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    min-width: 200px;
+    border: 1px solid transparent;
+
+}
+
+.button.primary{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    padding: 10px 32px;
+}
+
+.button.secondary{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    padding: 10px 45px;
+}
+
+/* Разметка шапки */
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 1230px;
+}
+
+/* Hero */
+
+.section-hero .service{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 46px;
+
+    color: var(--wite-color);;
+    background-color: black;
+}
+
+.section-hero{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Section */
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-title{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background-color: violet;
+}
+
+
+/* Feauters */
+
+.features .title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: var(--titlt-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features .text{
+    margin-top: 0px;
+    margin-bottom: 94px;
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+ /* Перечень занятий */
+
+ .section .scroll{
+     background-color: tomato;
+ }
+
+.scroll .title{
+    margin-top: 0px;
+    margin-bottom: ;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--wite-color);;
+    background-color: rgba(47, 48, 58, 0.8);
+
+}
+
+/* Команда */
+.section .team{
+    background-color: var(--fill-silver);
+}
+.team .title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .profession{
+    margin-top: 0px;
+    margin-bottom: 16px;
+
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Клиент */
+
+
+/*scc для portfolio*/
+.section-project{
+    text-align: center;
+}
+
+.project-portfolio .portfolio{
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #F5F4FA;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+}
+
+.project-portfolio .portfolio:hover,
+.project-portfolio .portfolio:focus{
+    color: var(--wite-color);
+    background-color: var(--accent-color);
+}
+
+
+.project .project-img{
+    text-decoration: none;
+}
+
+.project .title{
+    margin-top: 0px;
+    margin-bottom: 4px;
+
+    color: var(--title-text-color);
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project .text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+.project .text-overlay{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.is-hidden{
+    display: none;
+}
+ 
