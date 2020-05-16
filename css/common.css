@@ -105,12 +105,24 @@ ul{
 
 /* footer */
 
+.endbox{
+    display: flex;
+    align-items: center;
+}
+
 footer{
     background-color: #2F303A;   
 }
 
+.logotipe{
+    padding-top: 48px;
+    margin-bottom: 10px;
+}
+
 .address{
+    margin-bottom: 9px;
     color: var(--wite-color);
+    font-style: inherit;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -118,28 +130,49 @@ footer{
 }
 
 .contacts-address .link{
+    margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    
 }
 
 .developed{
     color: rgba(255, 255, 255, 0.4);
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
+
 .finish{
+    margin-bottom: 21px;
     color: var(--wite-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.finish-social{
+    display: flex;
+}
+
+.finish-social li + li{
+    margin-left: 10px;
+}
+
+.finishbox{
+    margin-left: 114px;
+}
+
+.invitation{
+    margin-left: 179px;
 }
