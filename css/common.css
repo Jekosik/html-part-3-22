@@ -18,6 +18,7 @@ body{
 }
 
 .logo{
+    margin-right: 86px;
     padding-top: 24px;
     padding-bottom: 25px;
 
@@ -62,8 +63,6 @@ ul{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-
-    outline: 1px solid tomato;
 }
 
 .site-nav .link:hover, 
@@ -85,17 +84,18 @@ ul{
     align-items: center;
 }
 
-.connection-nav .item + .item{
-    margin-left: 50px;
+.connection-nav li + li{
+    margin-left: 31.5px;
 }
 .connection-nav .link{
-    color: var(--primary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+   color: var(--primary-text-color);
 
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    outline: 1px solid tomato;
 }
 
 .connection-nav .link:hover,

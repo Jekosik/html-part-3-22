@@ -60,15 +60,20 @@
     
     width: 1230px;
 
-    outline: 1px solid teal;
+    outline: 1px solid tomato;
 }
 
 .main-nav{
     display: flex;
+    
 }
 
 .page-header{
     display: flex;
+}
+
+.contact{
+    margin-left: 334px;
 }
 
 
@@ -97,7 +102,6 @@
 /* Section */
 
 .section{
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -110,12 +114,24 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
-    background-color: violet;
 }
 
 
 /* Feauters */
+
+.features{
+    display: flex;
+    align-items: baseline;
+}
+
+.features li + li{
+    margin-left: 29px;
+}
+
+.features > .page{
+    align-items: center;
+    /* margin-bottom: 30px; */
+}
 
 .features .title{
     margin-top: 0px;
@@ -130,7 +146,7 @@
 
 .features .text{
     margin-top: 0px;
-    margin-bottom: 94px;
+    margin-bottom: 0px;
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -140,7 +156,7 @@
 
  /* Перечень занятий */
 
- .section .scroll{
+  .section .scroll{
      display: flex;
  }
 
@@ -163,9 +179,37 @@
 }
 
 /* Команда */
+
+.people{
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
 .section-team{
     background-color: var(--fill-silver);
+
 }
+
+.commands{
+    margin-bottom: 94px;
+    background: #FFFFFF;
+    border-radius: 4px;
+
+/* box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12); */
+}
+
+.commands > .foto{
+    margin-bottom: 30px;
+}
+
+.team{
+    display: flex;
+}
+
+.team .commands + .commands{
+    margin-left: 30px;
+}
+
 .team .title{
     margin-top: 0px;
     margin-bottom: 10px;
@@ -192,7 +236,27 @@
     letter-spacing: 0.03em;
 }
 
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 /* Клиент */
+
+.box{
+    margin-top: 94px;
+}
+
+.clients{
+    display: flex;
+}
+
+.clients li + li{
+    margin-left: 30px;
+}
 
 
 /*scc для portfolio*/
