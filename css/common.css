@@ -18,7 +18,11 @@ body{
 }
 
 .logo{
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     color: var(--accent-color);
+
     font-family: Raleway, sans-serif ;
     font-weight: 700;
     font-size: 26px;
@@ -34,17 +38,32 @@ ul{
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
+    padding: 0;
 }
 
 /* Site nav */
 
+.site-nav{
+    display: flex;
+    align-items: center;   
+}
+
+.site-nav .item + .item{
+    margin-left: 50px;
+}
+
 .site-nav .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    display: inline;
+
+    outline: 1px solid tomato;
 }
 
 .site-nav .link:hover, 
@@ -56,12 +75,27 @@ ul{
     color: var(--accent-color);
 } 
 
+.connection-nav .item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.connection-nav{
+    display: flex;
+    align-items: center;
+}
+
+.connection-nav .item + .item{
+    margin-left: 50px;
+}
 .connection-nav .link{
     color: var(--primary-text-color);
+
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    outline: 1px solid tomato;
 }
 
 .connection-nav .link:hover,

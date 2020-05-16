@@ -55,9 +55,22 @@
 .container{
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     
     width: 1230px;
+
+    outline: 1px solid teal;
 }
+
+.main-nav{
+    display: flex;
+}
+
+.page-header{
+    display: flex;
+}
+
 
 /* Hero */
 
@@ -90,7 +103,7 @@
 
 .section-title{
     margin-top: 0px;
-    margin-bottom: 50px;
+    
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -128,12 +141,15 @@
  /* Перечень занятий */
 
  .section .scroll{
-     background-color: tomato;
+     display: flex;
+ }
+
+ .scroll .works + .works{
+     margin-left: 30px;
  }
 
 .scroll .title{
     margin-top: 0px;
-    margin-bottom: ;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -147,7 +163,7 @@
 }
 
 /* Команда */
-.section .team{
+.section-team{
     background-color: var(--fill-silver);
 }
 .team .title{
