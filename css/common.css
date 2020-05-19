@@ -107,7 +107,8 @@ ul{
 
 .endbox{
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 footer{
@@ -142,6 +143,9 @@ footer{
 }
 
 .developed{
+    padding-bottom: 21px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.4);
     font-weight: 400;
     font-size: 12px;
@@ -170,9 +174,11 @@ footer{
 }
 
 .finishbox{
+    padding-top: 56px;
     margin-left: 114px;
 }
 
 .invitation{
+    padding-top: 56px;
     margin-left: 179px;
 }

@@ -58,7 +58,7 @@
     padding-left: 15px;
     padding-right: 15px;
     
-    width: 1230px;
+    width: 1200px;
 }
 
 .main-nav{
@@ -68,10 +68,8 @@
 
 .page-header{
     display: flex;
-}
-
-.contact{
-    margin-left: 334px;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 
@@ -101,6 +99,7 @@
 
 .section{
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .section-title{
@@ -116,10 +115,14 @@
 
 
 /* Feauters */
-
+.section.features{
+    padding-bottom: 0px
+}
 .features{
     display: flex;
     align-items: baseline;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .features li + li{
@@ -247,9 +250,6 @@
 
 /* Клиент */
 
-.box{
-    padding-top: 94px;
-}
 
 .clients{
     display: flex;
@@ -283,7 +283,7 @@
 
 .project-portfolio{
     padding-top: 93px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .project{
@@ -293,7 +293,8 @@
 }
 
  .item{
-    margin-bottom: 20px;.
+     display: block;
+    margin-bottom: 20px;
 }
 
 
