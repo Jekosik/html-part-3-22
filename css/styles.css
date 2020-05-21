@@ -17,6 +17,7 @@
     font-family: Raleway
 }
 
+
 /* Button */
 
 .button{
@@ -75,14 +76,19 @@
 
 /* Hero */
 
-.section.heros{
-    padding-top: 0px;
-    padding-bottom: 0px;
+.hero{ 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    text-align: center;
+    
+    background-color:rgba(47, 48, 58, 0.8);
 }
 
-.section-hero .service{
+.hero-title{
     width: 646px;
-    height: 104px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -91,17 +97,9 @@
     margin-top: 0;
     margin-bottom: 46px;
 
-    color: var(--wite-color);;
+    color: var(--wite-color);
 }
 
-.section-hero{
-    width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color:rgba(47, 48, 58, 0.8);
-}
 
 /* Section */
 
@@ -131,18 +129,24 @@
     padding-bottom: 94px;
     border-bottom: 1px solid #ECECEC;
 }
+
 .features{
-    display: flex;
+    display: flex; 
     align-items: baseline;
 }
 
-.features li + li{
-    margin-left: 30px;
+.features li{
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+}
+
+.features li:nth-child(4n){
+    margin-right: 0px;
 }
 
 .features > .page{
     align-items: center;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 }
 
 .features .title{
@@ -172,8 +176,13 @@
      display: flex;
  }
 
- .scroll .works + .works{
-     margin-left: 30px;
+ .scroll .works{
+     width: calc((100% - 60px) / 3);
+     margin-right: 30px;
+ }
+
+.works:nth-child(3n){
+     margin-right: 0px;
  }
 
 .scroll .title{
@@ -218,8 +227,14 @@
     display: flex;
 }
 
-.team .commands + .commands{
-    margin-left: 30px;
+
+.team .commands{
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+}
+
+.commands:nth-child(4n){
+    margin-right: 0px;
 }
 
 .team .title{
