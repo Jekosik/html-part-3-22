@@ -84,9 +84,14 @@ ul{
     align-items: center;
 }
 
-.connection-nav li + li{
-    margin-left: 31.5px;
+.connection-nav li{
+    margin-right: 50px;
 }
+
+.connection-nav li:nth-child(2n){
+    margin-right: 0px;
+}
+
 .connection-nav .link{
     padding-top: 32px;
     padding-bottom: 32px;
