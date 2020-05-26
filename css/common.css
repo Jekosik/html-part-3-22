@@ -110,15 +110,16 @@ ul{
 
 /* footer */
 
+footer{
+    background-color: #2F303A;
+}
+    
 .endbox{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
 }
 
-footer{
-    background-color: #2F303A;   
-}
 
 .logotipe{
     padding-top: 48px;
